@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('action', function (table) {
+  return knex.schema.createTable('shindig', function (table) {
     table.increments();
     table.string('date');
     table.string('start_time');
@@ -14,5 +14,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  return knex.schema.dropTable('action');
+  return knex.schema.dropTable('shindig');
 };

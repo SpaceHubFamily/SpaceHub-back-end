@@ -11,7 +11,7 @@ var index = require('./routes/index');
 var user = require('./routes/user');
 var venue = require('./routes/venue');
 var room = require('./routes/room');
-var action = require('./routes/action');
+var shindig = require('./routes/shindig');
 var feature = require('./routes/feature');
 
 var app = express();
@@ -33,7 +33,7 @@ app.use('/', index);
 app.use('/user', user);
 app.use('/venue', venue);
 app.use('/room', room);
-app.use('/action', action);
+app.use('/shindig', shindig);
 app.use('./feature', feature);
 
 
