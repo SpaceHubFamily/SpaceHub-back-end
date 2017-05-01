@@ -2,7 +2,7 @@ const router = require('express').Router();
 const knex = require('../db/knex');
 
 router.get('/', function(req, res) {
-  knex('venue')
+  knex('shindig_request')
   .select()
   .then(function (result) {
     res.json(result);
@@ -10,9 +10,9 @@ router.get('/', function(req, res) {
 });
 
 router.get('/:id', function(req, res) {
-  knex('venue')
+  knex('shindig_request')
   .select()
-  .where('venue.id', req.params.id)
+  .where('room.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })
@@ -20,17 +20,14 @@ router.get('/:id', function(req, res) {
 
 router.post('/', function(req, res){
 
-  knex('venue').insert({
-    address: req.body.address,
-    city: req.body.city,
-    state: req.body.state,
-    zip_code: req.body.zip_code,
+  knex('shindig_request').insert({
     name: req.body.name,
-    email: req.body.email,
-    phone: req.body.phone,
-    description: req.body.description,
+    capacity: req.body.capacity,
+    hour_rate: req.body.hour_rate,
+    day_rate: req.body.hour_rate,
     img_url: req.body.img_url,
-    user_id: knex('user').where('name', req.body.user).select('id'),
+    available: req.body.available,
+    venue_id: knex('venue').where('name', req.body.name).select('id'),
   }, 'id').then(function(result){
     res.json(result);
   });
@@ -38,7 +35,7 @@ router.post('/', function(req, res){
 
 router.patch('/:id', function(req, res){
 
-knex('venue').where('id', req.params.id).update({
+knex('shindig_request').where('id', req.params.id).update({
   name: req.body.name,
   subject_id: knex('subject').where('name', req.body.subject).select('id'),
 })
@@ -49,7 +46,7 @@ knex('venue').where('id', req.params.id).update({
 
 router.delete('/:id', function(req, res){
 
-  knex('venue').where('id', req.params.id).del().then(function(result){
+  knex('shindig_request').where('id', req.params.id).del().then(function(result){
     res.json(result);
   });
 
