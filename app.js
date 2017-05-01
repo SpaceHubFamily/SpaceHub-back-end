@@ -13,6 +13,7 @@ var venue = require('./routes/venue');
 var room = require('./routes/room');
 var shindig = require('./routes/shindig');
 var feature = require('./routes/feature');
+var shindig_request = require('./routes/shindig_request');
 
 var app = express();
 
@@ -35,6 +36,7 @@ app.use('/venue', venue);
 app.use('/room', room);
 app.use('/shindig', shindig);
 app.use('/feature', feature);
+app.use('/shindig_request', shindig_request);
 
 
 // catch 404 and forward to error handler
