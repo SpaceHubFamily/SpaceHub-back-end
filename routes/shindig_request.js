@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
 router.get('/:id', function(req, res) {
   knex('shindig_request')
   .select()
-  .where('room.id', req.params.id)
+  .where('shindig_request.shindig_id', req.params.id)
   .then(function (result) {
     res.json(result);
   })
