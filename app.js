@@ -34,7 +34,7 @@ app.use('/user', user);
 app.use('/venue', venue);
 app.use('/room', room);
 app.use('/shindig', shindig);
-app.use('./feature', feature);
+app.use('/feature', feature);
 
 
 // catch 404 and forward to error handler
