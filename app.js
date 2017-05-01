@@ -9,6 +9,7 @@ var cors = require('cors');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var venue = require('./routes/venue');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use(cookieParser());
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/venue', venue);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
