@@ -1,10 +1,10 @@
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('event').del()
+  return knex('shindig').del()
     .then(function () {
       // Inserts seed entries
-      return knex('event').insert([
+      return knex('shindig').insert([
         {date: "05/29/2017", start_time: '3:45', end_time: "8:00", user_id: 3, room_id: 1},
         {date: "09/15/2017", start_time: '4:45', end_time: "9:45", user_id: 4, room_id: 2},
         {date: "06/17/2017", start_time: '7:30', end_time: "11:00", user_id: 1, room_id: 6},

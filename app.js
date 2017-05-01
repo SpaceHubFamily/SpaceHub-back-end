@@ -8,8 +8,11 @@ var cors = require('cors');
 
 
 var index = require('./routes/index');
-var users = require('./routes/users');
+var user = require('./routes/user');
 var venue = require('./routes/venue');
+var room = require('./routes/room');
+var shindig = require('./routes/shindig');
+var feature = require('./routes/feature');
 
 var app = express();
 
@@ -27,8 +30,12 @@ app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/user', user);
 app.use('/venue', venue);
+app.use('/room', room);
+app.use('/shindig', shindig);
+app.use('./feature', feature);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
