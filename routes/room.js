@@ -17,8 +17,8 @@ router.get('/user/:id', function(req, res) {
     'day_rate', 'room.img_url as room_img_url', 'room.available as room_available',
     'user.first_name', 'user.last_name', 'user.img_url as user_img_url', 'user.phone_number',
     'user.company_name', 'user.email', 'user.description as company_description',
-    'user.venue_owner', 'user.event_planner')
-  .where('room.id', req.params.id)
+    'user.venue_owner', 'user.event_planner', 'venue.name as venue_name')
+  .where('user.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })

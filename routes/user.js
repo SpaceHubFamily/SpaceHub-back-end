@@ -9,6 +9,15 @@ router.get('/', function(req, res) {
   })
 });
 
+router.get('/room/:id', function(req, res) {
+  knex('user')
+  .select()
+  .where('user.id', req.params.id)
+  .then(function (result) {
+    res.json(result);
+  })
+})
+
 router.get('/:id', function(req, res) {
   knex('user')
   .select()
