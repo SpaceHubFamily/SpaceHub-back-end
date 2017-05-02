@@ -9,6 +9,21 @@ router.get('/', function(req, res) {
   })
 });
 
+router.get('/user/:id', function(req, res) {
+  knex('room')
+  .join('venue', 'venue.id', '=', 'room.venue_id')
+  .join('user', 'user.id', '=', 'venue.user_id')
+  .select('venue.name as venue_name', 'room.name as room_name', 'hour_rate',
+    'day_rate', 'room.img_url as room_img_url', 'room.available as room_available',
+    'user.first_name', 'user.last_name', 'user.img_url as user_img_url', 'user.phone_number',
+    'user.company_name', 'user.email', 'user.description as company_description',
+    'user.venue_owner', 'user.event_planner')
+  .where('room.id', req.params.id)
+  .then(function (result) {
+    res.json(result);
+  })
+});
+
 router.get('/:id', function(req, res) {
   knex('room')
   .select()
@@ -16,7 +31,7 @@ router.get('/:id', function(req, res) {
   .then(function (result) {
     res.json(result);
   })
-})
+});
 
 router.post('/', function(req, res){
 
