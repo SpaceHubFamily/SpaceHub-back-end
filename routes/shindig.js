@@ -20,14 +20,14 @@ router.get('/:id', function(req, res) {
 
 router.get('/user/:id', function(req, res) {
   knex('shindig')
-  .join('user', 'user.id', '=', 'shindig.user_id')
+  .join('users', 'users.id', '=', 'shindig.user_id')
   .join('venue', 'venue.id', '=', 'shindig.room_id')
   .join('room', 'room.venue_id', '=', 'venue_id')
   .select('shindig.date', 'shindig.start_time', 'shindig.end_time',
-   'user.first_name', 'user.last_name', 'user.phone_number',
-    'user.company_name', 'user.email as user_email',
-    'user.description as company_description', 'user.venue_owner',
-    'user.event_planner', 'venue.address as venue_address',
+   'users.first_name', 'users.last_name', 'users.phone_number',
+    'users.company_name', 'users.email as user_email',
+    'users.description as company_description', 'users.venue_owner',
+    'users.event_planner', 'venue.address as venue_address',
     'venue.city as venue_city', 'venue.state as venue_state',
     'venue.zip_code as venue_zip_code', 'venue.name as venue_name',
     'venue.email as venue_email', 'venue.phone as venue_phone',
@@ -35,7 +35,7 @@ router.get('/user/:id', function(req, res) {
     'room.name as room_name', 'room.capacity as room_capacity',
     'room.hour_rate as room_hourly_rate', 'room.day_rate as room_daily_rate',
     'room.img_url as room_img_url', 'room.available as room_available')
-  .where('user.id', req.params.id)
+  .where('users.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })

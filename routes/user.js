@@ -14,6 +14,31 @@ router.get('/', (req, res) => {
   return res.status(401).send('not logged in');
 });
 
+router.get('/shindig/:id', function(req, res) {
+  knex('users')
+  .join('shindig', 'users.id', '=', 'shindig.user_id')
+  .leftJoin('room', 'room.id', '=', 'shindig.room_id')
+  .rightJoin('venue', 'room.venue_id', '=', 'venue.id')
+  .select('shindig.date', 'shindig.start_time', 'shindig.end_time',
+   'users.first_name', 'users.last_name', 'users.phone_number',
+    'users.company_name', 'users.email as user_email',
+    'users.description as company_description', 'users.venue_owner',
+    'users.event_planner', 'venue.address as venue_address',
+    'venue.city as venue_city', 'venue.state as venue_state',
+    'venue.zip_code as venue_zip_code', 'venue.name as venue_name',
+    'venue.email as venue_email', 'venue.phone as venue_phone',
+    'venue.description as venue_description', 'venue.img_url as venue_img_url',
+    'room.name as room_name', 'room.capacity as room_capacity',
+    'room.hour_rate as room_hourly_rate', 'room.day_rate as room_daily_rate',
+    'room.img_url as room_img_url', 'room.available as room_available',
+    'users.id as user_id')
+    // .select("*", 'room.id as roRLSDJFom_id')
+  .where('users.id', req.params.id)
+  .then(function (result) {
+    res.json(result);
+  })
+});
+
 router.get('/room/:id', (req, res) => {
   knex('users')
   .select()
