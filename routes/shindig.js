@@ -34,7 +34,8 @@ router.get('/user/:id', function(req, res) {
   'venue.state as venue_state', 'venue.zip_code as venue_zip_code',
   'venue.name as venue_name', 'venue.email as venue_email',
   'venue.email as venue_email', 'venue.phone as venue_phone',
-  'venue.description as venue_description', 'venue.img_url as venue_img_url')
+  'venue.description as venue_description', 'venue.img_url as venue_img_url',
+  'shindig.id as id')
   .then(function (result) {
     res.json(result);
   })
