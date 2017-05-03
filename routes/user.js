@@ -2,17 +2,24 @@ const router = require('express').Router();
 const knex = require('../db/knex');
 const bcrypt = require('bcrypt');
 
-router.get('/', (req, res) => {
-  if (req.session.userId) {
-    return knex('users')
-    .select()
-    .where('id', req.session.userId)
-    .then(([result]) => {
-      res.json(result);
-    });
-  }
-  return res.status(401).send('not logged in');
+router.get('/', function(req, res) {
+  knex('users')
+  .select()
+  .then(function (result) {
+    res.json(result);
+  })
 });
+// router.get('/', (req, res) => {
+//   if (req.session.userId) {
+//     return knex('users')
+//     .select()
+//     .where('id', req.params.userId)
+//     .then(([result]) => {
+//       res.json(result);
+//     });
+//   }
+//   return res.status(401).send('not logged in');
+// });
 
 router.get('/shindig/:id', function(req, res) {
   knex('users')

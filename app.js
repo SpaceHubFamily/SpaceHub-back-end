@@ -49,7 +49,6 @@ app.use('/feature', feature);
 app.use('/shindig_request', shindig_request);
 app.use('/feature_room', feature_room);
 
-
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   const err = new Error('Not Found');
