@@ -35,7 +35,7 @@ router.get('/user/:id', function(req, res) {
     'room.name as room_name', 'room.capacity as room_capacity',
     'room.hour_rate as room_hourly_rate', 'room.day_rate as room_daily_rate',
     'room.img_url as room_img_url', 'room.available as room_available')
-  .where('shindig.id', req.params.id)
+  .where('user.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })
