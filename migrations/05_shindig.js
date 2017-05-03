@@ -4,6 +4,7 @@ exports.up = function (knex, Promise) {
     table.string('date');
     table.string('start_time');
     table.string('end_time');
+    table.boolean('available');
     table.integer('user_id')
       .references('users.id')
       .onDelete('CASCADE');
