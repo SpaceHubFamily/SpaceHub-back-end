@@ -1,5 +1,5 @@
-exports.up = function(knex, Promise) {
-  return knex.schema.createTable('venue', function (table) {
+exports.up = function (knex, Promise) {
+  return knex.schema.createTable('venue', (table) => {
     table.increments();
     table.string('address');
     table.string('city');
@@ -11,11 +11,11 @@ exports.up = function(knex, Promise) {
     table.string('description', [1000]);
     table.string('img_url');
     table.integer('user_id')
-      .references('user.id')
+      .references('users.id')
       .onDelete('CASCADE');
   });
 };
 
-exports.down = function(knex, Promise) {
+exports.down = function (knex, Promise) {
   return knex.schema.dropTable('venue');
 };
