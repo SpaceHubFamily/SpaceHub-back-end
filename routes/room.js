@@ -12,13 +12,13 @@ router.get('/', function(req, res) {
 router.get('/user/:id', function(req, res) {
   knex('room')
   .join('venue', 'venue.id', '=', 'room.venue_id')
-  .join('user', 'user.id', '=', 'venue.user_id')
+  .join('users', 'users.id', '=', 'venue.user_id')
   .select('venue.name as venue_name', 'room.name as room_name', 'hour_rate',
     'day_rate', 'room.img_url as room_img_url', 'room.available as room_available',
-    'user.first_name', 'user.last_name', 'user.img_url as user_img_url', 'user.phone_number',
-    'user.company_name', 'user.email', 'user.description as company_description',
-    'user.venue_owner', 'user.event_planner', 'venue.name as venue_name')
-  .where('user.id', req.params.id)
+    'users.first_name', 'users.last_name', 'users.img_url as user_img_url', 'users.phone_number',
+    'users.company_name', 'users.email', 'users.description as company_description',
+    'users.venue_owner', 'users.event_planner', 'venue.name as venue_name')
+  .where('users.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })
