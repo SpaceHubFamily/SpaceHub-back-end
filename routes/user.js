@@ -9,6 +9,15 @@ router.get('/', function(req, res) {
     res.json(result);
   })
 });
+
+router.get('/:id', function(req, res) {
+  knex('users')
+  .select()
+  .where('users.id', req.params.id)
+  .then(function (result) {
+    res.json(result);
+  })
+});
 // router.get('/', (req, res) => {
 //   if (req.session.userId) {
 //     return knex('users')
