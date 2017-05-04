@@ -102,10 +102,8 @@
   102  rm origin
   103  git remote add originTwo https://github.com/jhernandez89/myTest.git
   104  git checkout -b
-  105  git checkout -b test
   106  brew install homebrew/emacs/powerline-emacs
   107  git checkout tesst
-  108  git checkout test
   109  brew install powerline
   110  git checkout landing-page -b
   111  git commit -m "first try"
@@ -449,1269 +447,226 @@
   933  npm insall
   940  https://github.com/jhernandez89/js-higher-order-functions-assessment.gitn
   943  atom myTest.js
-  944  node myTest.js
-  945  ..
-  946  ls
-  947  ..
-  948  ls
-  949  cd lion
-  950  ls
-  951  cd js-scope-and-iife-assessment
-  952  ls
-  953  atom .
-  954  ls
-  955  ..
   956  git clone https://github.com/jhernandez89/function-assessment-js.git
-  957  ls
-  958  cd function-assessment-js
-  959  ls
-  960  atom .
   961  atom greet.js
-  962  ls
-  963  ls -a
   964  touch greet.js
-  965  ls
-  966  node greet.js
-  967  node people.js
-  968  node greet.js
-  969  node people.js
-  970  node pizzas.js
-  971  ls
-  972  node not_your_nachos.js
-  973  ls
-  974  node not_your_nachos.js
-  975  ..
-  976  pwd
-  977  cd
-  978  ls
-  979  clear
-  980  ls
   981  mkdir zsh_custom
-  982  ls
   983  cd zsh_custom
-  984  ls
   985  touch alias.sh
-  986  ls
   987  atom alias.sh
-  988  ls -l
   989  chmod u+x alias.sh
-  990  ls -l
-  991  cd
-  992  ls -l
-  993  ls -a
   994  atom zshrc
   995  atom .zshrc
-  996  ls
   997  mkcd hi
-  998  ls
-  999  ..
- 1000  ls
- 1001  cd galvanize
- 1002  ls
- 1003  cd practice
- 1004  ls
- 1005  cd lodash
- 1006  ls
- 1007  atom .
- 1008  atom test.js
- 1009  node test.js
- 1010  ls
- 1011  npm test
  1012  node testjs
- 1013  node test.js
- 1014  atom test.js
- 1015  node test.js
- 1016  atom test.js
  1017  node test.js
- 1018  node test
  1019  node lodash
- 1020  npm test
- 1021  node test
- 1022  npm test
- 1023  node test
- 1024  npm test
  1025  node test
- 1026  npm test
- 1027  ls
- 1028  ..
- 1029  ls
- 1030  ..
- 1031  ls
- 1032  ..
- 1033  ls
- 1034  cd firstProject
- 1035  ls
  1036  atom firstPage.html
  1037  open firstPage.html
  1038  ..cd
  1039  find lodash
  1040  find lodash.js
  1041  find / -type d -lodash
- 1042  ls
- 1043  ..
- 1044  ls
- 1045  cd galvanize
- 1046  ls
- 1047  cd practice
- 1048  ls
  1049  touch wedStuff.js
  1050  atom webStuff.js
  1051  node webStuff.js
  1052  touch superheroes.js
- 1053  atom superheroes.js
- 1054  node superheroes.js
- 1055  touch map.js
- 1056  atom map.js
- 1057  node map.js
- 1058  atom map.js
- 1059  node map.js
  1060  atom map.js
- 1061  node map.js
  1062  touch reduce.js
  1063  atom reduce.js
  1064  node reduce.js
  1065  node superheroes.js
- 1066  ls
- 1067  git clone https://github.com/jhernandez89/js-native-array-methods.git
- 1068  cd js-native-array-methods
- 1069  ls
- 1070  atom .
- 1071  ls
- 1072  cd src
- 1073  ls
- 1074  node every.js
- 1075  npm test
- 1076  npm install
- 1077  npm test
- 1078  node filter.js
- 1079  ls
- 1080  node filter.js
- 1081  npm test
- 1082  node filter.js
- 1083  npm test
- 1084  node filter.js
- 1085  ..
- 1086  ls
- 1087  ..
- 1088  ls
  1089  atom webstuff.js
  1090  atom superheroes.js
- 1091  cd js-native-array-methods
- 1092  ls
- 1093  npm test
- 1094  node filter.js
- 1095  ls
- 1096  atom .
- 1097  ls
- 1098  npm test
- 1099  ls
- 1100  node filter.js
- 1101  clear
- 1102  ls
- 1103  atom .
- 1104  node filter.js
  1105  vi every.js
- 1106  ls
- 1107  cd src
- 1108  ls
  1109  vim every.js
- 1110  ls
- 1111  ..
- 1112  atom .
- 1113  ..
- 1114  ls
- 1115  rm -rf js-native-array-methods
- 1116  ls
- 1117  git clone https://github.com/gSchool/js-native-array-methods.git
- 1118  ls
- 1119  cd js-native-array-methods
- 1120  atom .
- 1121  npm install
- 1122  npm test
- 1123  ls
- 1124  atom .
- 1125  ..
- 1126  ls
  1127  mkdir accumulatorPatturn
- 1128  ls
  1129  cd accumulatorPatturn
  1130  touch map.js
- 1131  atom .
  1132  node map.js
- 1133  ..
- 1134  l
- 1135  cd js-native-array-methods
- 1136  l
  1137  cat src/every.js
- 1138  atom .
- 1139  ls
- 1140  npm test
- 1141  node filter.js
- 1142  npm test
  1143  node filter.js
  1144  node every.js
- 1145  npm test
- 1146  ls
- 1147  ..
  1148  git clone https://github.com/jhernandez89/js-accumulator-assessment.git
- 1149  ls
- 1150  cd js-accumulator-assessment
- 1151  ls
- 1152  atom .
- 1153  npm install
- 1154  ls
- 1155  npm test
- 1156  ls
- 1157  cd galvanize
- 1158  ls
  1159  cd practic
- 1160  cd practice
- 1161  ls
  1162  cd js-accumulator-assessment/ls
  1163  cd js-accumulator-assessment/
- 1164  ls
- 1165  atom .
- 1166  ..
- 1167  ls
- 1168  cd js-native-array-methods
- 1169  ls
- 1170  atom .
- 1171  npm test
- 1172  ls
- 1173  ..
- 1174  cd
- 1175  ls
- 1176  cd ga
- 1177  cd galvanize
- 1178  ls
- 1179  cd practice
- 1180  ls
- 1181  cd lodash
- 1182  ls
- 1183  atom .
- 1184  npm test
- 1185  ls
- 1186  ..
- 1187  ls
- 1188  cd practice
- 1189  ls
- 1190  cd candyCrush
- 1191  ls
  1192  cd ccf-data-structures
- 1193  ls
- 1194  atom ..
- 1195  ls
  1196  cd store1
- 1197  npm test ./store1
- 1198  node store1
- 1199  npm test ./store1
  1200  node store1
- 1201  npm test ./store1
- 1202  ls
- 1203  ..
- 1204  ls
- 1205  ..
- 1206  ls
- 1207  ..
- 1208  ls
- 1209  cd js-native-array-methods
- 1210  ls
  1211  atom ..
- 1212  npm test ./store1
- 1213  ..
- 1214  ls
  1215  cd candyCrush
- 1216  ls
  1217  cd ccf-data-structures/store1
- 1218  ls
  1219  npm test ./store1
- 1220  ..
- 1221  ls
- 1222  cd lodash
- 1223  atom .
- 1224  npm test
  1225  node lodash.js
- 1226  npm test
- 1227  ls
- 1228  ..
- 1229  ls
  1230  git clone https://github.com/jhernandez89/mocha-chai-assessment.git
- 1231  cd mocha-chai-assessment
- 1232  ls
  1233  cd .
  1234  mkdir myShit
  1235  cd myShit
- 1236  ls
- 1237  touch yellPhrase.js
- 1238  mkdir test
- 1239  cd test
- 1240  touch yellPhraseTest.js
- 1241  npm install mocha chai --save-dev
- 1242  npm init -y
- 1243  ..
- 1244  npm install mocha chai --save-dev
- 1245  npm init -y
- 1246  ls
- 1247  cd test
- 1248  ls
- 1249  ..
- 1250  .
  1251  mv myShit myTest
- 1252  ls
- 1253  rm -rf test
- 1254  ls
- 1255  mkdir test
- 1256  cd test
- 1257  touch yellPhrase.js
- 1258  ..
  1259  rm -rf myShit
  1260  mkdir myTest
- 1261  cd test
- 1262  touch yellPhrase.js
- 1263  mkdir test
- 1264  ls
- 1265  cd test
- 1266  touch yellPhraseTest.js
- 1267  ls
- 1268  ..
- 1269  ls
- 1270  ..
- 1271  rm -rf test
- 1272  ls
- 1273  cd myTest
  1274  touch yellPhrase.js
- 1275  mkdir test
- 1276  cd test
  1277  touch yellPhraseTest.js
- 1278  ..
- 1279  npm install mocha chai --save-dev
- 1280  npm init -y
- 1281  ls
- 1282  cd test
- 1283  ls
- 1284  ..
- 1285  ls
- 1286  cd myTest
- 1287  ls
- 1288  cd test
- 1289  ls
- 1290  ..
- 1291  ls
- 1292  cat package.json
- 1293  npm install mocha chai --save-dev
- 1294  cat package.json
- 1295  ls
- 1296  atom .
- 1297  cd test
- 1298  ls
- 1299  ..
- 1300  atom .
- 1301  npm test
- 1302  ls
- 1303  npm test
- 1304  mocha
- 1305  ls
- 1306  mocha
- 1307  ls
  1308  vim package.json
- 1309  ls
- 1310  cd galvanize
- 1311  ls
- 1312  cd practice
- 1313  ls
- 1314  cd mocha-chai-assessment
- 1315  ls
  1316  cd myTest
- 1317  ls
- 1318  npm test
- 1319  mocha
- 1320  npm test
- 1321  ls
  1322  cd galvanize/practice/lodash
- 1323  ls
- 1324  atom lodash.js
- 1325  npm test
- 1326  ..
- 1327  ls
- 1328  cd lodash
- 1329  ls
- 1330  atom .
- 1331  ls
- 1332  npm test
- 1333  ls
- 1334  ..
- 1335  ls
- 1336  cd  mocha-chai-assessment
- 1337  ls
- 1338  atom .
  1339  mkdir exerciseToday
- 1340  ls
  1341  cd exerciseToday
- 1342  ls
- 1343  cd galvanize
- 1344  ls
  1345  mkdir masterTrack
- 1346  ls
- 1347  cd masterTrack
- 1348  ls
  1349  mkdir Finished
  1350  mkdir notFinished
- 1351  ls
- 1352  cd notFinished
- 1353  ls
  1354  mkdir codeCompleted
- 1355  ls
  1356  mkdir codeToBeCompleted
- 1357  ls
- 1358  ..
- 1359  ls
  1360  cd projects/
- 1361  ls
- 1362  ..
- 1363  cd practice
- 1364  ls
  1365  cp function-assessment-js
- 1366  mv function-assessment-js ..
- 1367  ls
- 1368  ..
- 1369  ls
- 1370  mv function-assessment-js ..
- 1371  ..
  1372  mv function-assessment-js galvanize
- 1373  cd galvanize
- 1374  ls
  1375  mv function-assessment-js masterTrack
- 1376  cd masterTrack
- 1377  ls
  1378  mv function-assessment-js notFinished
- 1379  ls
- 1380  cd notFinished
- 1381  ls
  1382  mv function-assessment-js codeToBeCompleted
- 1383  cd codeToBeCompleted
- 1384  ls
  1385  git clone https://github.com/gSchool/git-branch-exercise.git
- 1386  ls
  1387  git clone https://github.com/gSchool/big-o-assessment.git
  1388  git clone https://github.com/gSchool/js-accumulator-assessment.git
- 1389  ls
- 1390  cd function-assessment-js
- 1391  ls
- 1392  atom .
- 1393  ls
- 1394  npm test
- 1395  ..
- 1396  ls
- 1397  ..
- 1398  npm install
- 1399  brew install node
- 1400  ls
- 1401  npm install
- 1402  brew update
- 1403  ls
- 1404  rm -rf node_modules
- 1405  ls
- 1406  clear
- 1407  ls
- 1408  cd notFinished
- 1409  ls
- 1410  cd codeToBeCompleted
- 1411  ls
- 1412  npm test
- 1413  cd function-assessment-js
- 1414  ls
- 1415  npm test
- 1416  npm install
- 1417  ls
- 1418  node greet.js
- 1419  node people.js
- 1420  node pizza.js
- 1421  node pizzas.js
- 1422  node not_your_nachos.js
- 1423  clear
- 1424  node people.js
  1425  node pizza.js
- 1426  clear
- 1427  node people.js
- 1428  node not_your_nachos.js
- 1429  node pizzas.js
- 1430  node greet.js
- 1431  ls
  1432  mv function-assessment-js ..
- 1433  ls
- 1434  ..
- 1435  ls
- 1436  cd function-assessment-js ..
  1437  mv function-assessment-js ../codeCompleted
- 1438  ..
- 1439  ls
  1440  cd codeCompleted
- 1441  ls
  1442  cd function-assessment-js ..
  1443  cd function-assessment-js
- 1444  ls
  1445  node pizzas.js
- 1446  node people.js
  1447  node greet.js
  1448  node not_your_nachos.js
- 1449  node people.js
- 1450  ls
  1451  touch peopleTwo.js
  1452  vim peopleTwo.js
  1453  node peopleTwo.js
- 1454  atom .
- 1455  node people.js
- 1456  cat people.js
  1457  node people.js
- 1458  ls
- 1459  ..
- 1460  ls
- 1461  codeToBeCompleted
- 1462  ls
  1463  cd function-assessment-js/
- 1464  ls
  1465  cat people.js
- 1466  ..
- 1467  ls
  1468  rm npm-debug.log
- 1469  ls
  1470  rm -rf function-assessment-js
- 1471  ls
  1472  cd git-branch-exercise
- 1473  ls
- 1474  atom .
- 1475  ls
  1476  git clone https://github.com/jhernandez89/js-native-array-methods.git
- 1477  ls
- 1478  cd js-native-array-methods
  1479  git checkout -b landing-page
- 1480  touch index.html
- 1481  vim index.html
- 1482  cat index.html
- 1483  git add -A
- 1484  ls
- 1485  git status
  1486  git commit -m "this stuff"
  1487  git push -u origin landing-page
  1488  vim index.html
- 1489  git commit -m "super awesome"
- 1490  git add -A
  1491  git commit -m "super awesome"
- 1492  git checkout master
  1493  git merge landing-page
- 1494  git push -u origin master
- 1495  ls
- 1496  ..
- 1497  ls
  1498  rm -rf js-native-array-methods
- 1499  ls
- 1500  ..
- 1501  ls
- 1502  cd js-accumulator-assessment
- 1503  ls
- 1504  atom .
  1505  brew install node
- 1506  clear
- 1507  npm test
- 1508  npm install
- 1509  npm test
- 1510  ls
- 1511  ..
- 1512  ls
- 1513  ..
- 1514  ls
- 1515  cd practice
- 1516  ls
- 1517  cd lodash
- 1518  ls
- 1519  atom .
- 1520  ls
- 1521  npm test
  1522  touch myTest.js
  1523  node myTest.js
- 1524  ls
- 1525  cd galvanize
- 1526  ls
- 1527  cd practice
- 1528  ls
- 1529  ..
- 1530  cd masterTrack
- 1531  ls
- 1532  cd notFinished
- 1533  ls
- 1534  cd codeToBeCompleted
- 1535  ls
- 1536  cd js-accumulator-assessment
- 1537  atom .
- 1538  ls
- 1539  npm test
- 1540  ls
- 1541  git commit
- 1542  git add -A
- 1543  ls
- 1544  git commit
- 1545  git add -A
- 1546  git status
- 1547  git add -A
- 1548  git commit -m "Lodash answers"
- 1549  git push -u origin master
- 1550  git status
- 1551  ls
- 1552  ..
- 1553  ls
  1554  mkdir lodashTwo
  1555  cd lodashTwo
- 1556  ls
  1557  git clone https://github.com/jhernandez89/lodash.git
- 1558  atom lodash.js
- 1559  ls
- 1560  ls -a
- 1561  cd lodash
- 1562  ls
  1563  atom lodash.js
- 1564  npm test
- 1565  npm install
- 1566  npm test
- 1567  git add -A
  1568  git commit -m "Lodash answers"
- 1569  git push -u origin master
- 1570  ls
- 1571  cd galvanize
- 1572  s
- 1573  ls
- 1574  cd practice
- 1575  ls
  1576  mkdir sports
- 1577  cd sports
  1578  git clone https://github.com/jhernandez89/galvanize-sports.git
- 1579  ls
- 1580  cd galvanize-sports
- 1581  ls
- 1582  atom .
- 1583  ls
- 1584  ..
- 1585  ls
  1586  ll
- 1587  ..
- 1588  ls
- 1589  cd lodash
- 1590  ls
- 1591  atom .
- 1592  ls
- 1593  ..
- 1594  ls
- 1595  .
- 1596  ..
- 1597  ls
- 1598  cd practice
- 1599  ls
- 1600  cd sports
- 1601  ls
- 1602  cd galvanize-sports
- 1603  ls
- 1604  atom .
- 1605  npm install
- 1606  npm test
  1607  exit
- 1608  ls
  1609  cd pr
- 1610  cd practice
- 1611  cd galvanize
- 1612  ls
- 1613  cd practice
- 1614  ls
- 1615  cd sports
- 1616  ls
- 1617  cd galvanize-sports
- 1618  ls
- 1619  npm test
  1620  sudo npm test
- 1621  ls
- 1622  cd galvanize
- 1623  ls
- 1624  cd practice
- 1625  ls
- 1626  cd sports
- 1627  ls
  1628  cd galvanize-sports/
  1629  cat objects.js
- 1630  ls
- 1631  .load galvanize_sports.js
- 1632  node
- 1633  ls
- 1634  node
- 1635  ls
- 1636  node
- 1637  ls
- 1638  node
  1639  .load galvanize_sports.js
- 1640  node
- 1641  ls
- 1642  node
- 1643  ls
- 1644  node
- 1645  npm test
- 1646  git status
- 1647  git add -A
  1648  git commit -m "on Tax"
- 1649  npm test
- 1650  ls
- 1651  atom .
- 1652  npm test
- 1653  node
- 1654  npm test
- 1655  ls
  1656  cc galvanize
- 1657  cd galvanize
- 1658  ls
  1659  cd practice/sports/
- 1660  ls
- 1661  cd galvanize-sports
- 1662  ls
- 1663  mocha
- 1664  npm test
- 1665  ls
  1666  cd galvanize/practice/sports/galvanize-sports
- 1667  ls
  1668  npm install -g mocha
- 1669  mocha
  1670  mocha --help
  1671  mocha -w
- 1672  mocha
- 1673  ls
- 1674  git status
- 1675  mocha
- 1676  git status
- 1677  git add -A
- 1678  git status
- 1679  git add -A
- 1680  git status
- 1681  git commit -m "Completed purchasing system"
- 1682  ls
- 1683  git status
- 1684  git push -u origin master
- 1685  git status
- 1686  git add -A
- 1687  git status
- 1688  git add -A
  1689  git commit -m "Completed purchasing system"
- 1690  git push -u origin master
- 1691  ls
- 1692  ..
- 1693  ls
- 1694  ..
- 1695  ls
  1696  cd lion
- 1697  ls
- 1698  cd js-scope-and-iife-assessment
- 1699  ls
- 1700  atom .
- 1701  git status
- 1702  git add -A
  1703  git commit -m "Added comments to describe the processes of each function"
- 1704  git push -u origin master
- 1705  ls
- 1706  ..
- 1707  ls
- 1708  ..
- 1709  ls
- 1710  ..
- 1711  ls
- 1712  cd masterTrack
- 1713  ls
- 1714  cd notFinished
- 1715  ls
  1716  codeToBeCompleted
- 1717  ls
- 1718  cd big-o-assessment
- 1719  atom .
- 1720  ls
- 1721  ..
- 1722  ls
  1723  ls practice
  1724  cd bigO
  1725  bigO
- 1726  ls
  1727  cd practice/bigO
- 1728  ls
- 1729  cd big-o-assessment
- 1730  ls
- 1731  ..
- 1732  ls
- 1733  cd sports
- 1734  ls
- 1735  cd galvanize-sports
- 1736  ls
- 1737  atom .
- 1738  ls
- 1739  ..
  1740  mkdir cards
- 1741  cd cards
  1742  touch cards.js
- 1743  atom cards.js
  1744  touch battleship.js
  1745  atom battleship.js
  1746  touch pinball.js
- 1747  atom .
- 1748  ls
  1749  atom cards.js
- 1750  ls
- 1751  ..
- 1752  ls
- 1753  cd masterTrack
- 1754  ls
- 1755  cd notFinished
- 1756  ls
- 1757  cd codeToBeCompleted
- 1758  ls
  1759  cd js-accumulator-assessment
- 1760  atom .
- 1761  npm test
- 1762  ls
- 1763  ..
  1764  touch howJavascriptWorks.ms
- 1765  ls
  1766  rm howJavascriptWorks.ms
- 1767  ls
  1768  touch howJavascriptWorks.md
- 1769  atom howJavascriptWorks.md
- 1770  ls
- 1771  ..
- 1772  ls
- 1773  ..
- 1774  ls
- 1775  cd pra
- 1776  cd practice/
- 1777  ls
  1778  cd sports
- 1779  ls
  1780  cd galvanize-sports
- 1781  ls
- 1782  atom .
- 1783  npm test
- 1784  git add -A
  1785  git commit -m "used iteration to find items"
- 1786  git push -u origin master
- 1787  npm test
- 1788  ..
  1789  cd practice/
- 1790  ls
  1791  git clone https://github.com/jhernandez89/dom-assessment.git
- 1792  ls
- 1793  cd dom-assessment
- 1794  atom .
- 1795  ls
- 1796  ..
- 1797  ls
  1798  git clone https://github.com/jhernandez89/semantic-html-exercise.git
- 1799  ls
- 1800  cd semantic-html-exercise
- 1801  ls
- 1802  atom .
- 1803  ls
- 1804  ..
- 1805  ls
- 1806  cd dom-assessment
- 1807  ls
- 1808  atom README.md
- 1809  ls
- 1810  ..
- 1811  ls
- 1812  cd masterTrack
- 1813  ls
- 1814  ..
- 1815  ls
- 1816  cd notFinished
- 1817  ls
- 1818  cd codeToBeCompleted
- 1819  ls
- 1820  atom howJavascriptWorks.md
- 1821  ls
- 1822  ..
- 1823  ls
- 1824  cd codeToBeCompleted
  1825  atom big-o-assessment
- 1826  ls
- 1827  ..
- 1828  ls
- 1829  .
- 1830  ..
- 1831  ls
- 1832  cd projects
- 1833  ls
- 1834  ..
  1835  cd pra
- 1836  cd practice
- 1837  ls
  1838  cd dom-assessment
- 1839  ls
- 1840  atom readme.md
- 1841  ls
- 1842  ..
- 1843  ls
- 1844  ..
- 1845  ls
- 1846  cd masterTrack
- 1847  ls
- 1848  cd notFinished
- 1849  ls
- 1850  cd codeToBeCompleted
- 1851  ls
- 1852  atom howJavascriptWorks.md
- 1853  ls
- 1854  .
- 1855  ...
- 1856  ..
- 1857  ls
- 1858  cd practice
  1859  mkdir AJAX
- 1860  cd AJAX
  1861  git clone https://github.com/jhernandez89/ajax-assessment.git
- 1862  ls
  1863  cd ajax-assessment
- 1864  ls
- 1865  atom .
- 1866  ls
- 1867  git add -A
  1868  git commit -m "Ajax answers"
- 1869  git push -u origin master
- 1870  ls
- 1871  ..
- 1872  ls
- 1873  cd practice
- 1874  ls
- 1875  ..
- 1876  ls
- 1877  cd practice
- 1878  mkdir myWebsite
- 1879  cd myWebsite
  1880  touch myTest.html
- 1881  atom myTest.html
  1882  $ npm install -g firebase-tools\n
- 1883  npm install -g firebase-tools
- 1884  firebase login
- 1885  firebase init
- 1886  firebase deploy
- 1887  firebase init
- 1888  firebase login
- 1889  firebase init
- 1890  ..
- 1891  ls
  1892  mkdir myWebsiteTwo
  1893  cd myWebsiteTwo
- 1894  ls
- 1895  firebase deploy
- 1896  npm install -g firebase-tools
- 1897  firebase login
- 1898  firebase init
- 1899  firebase deploy
- 1900  ..
- 1901  ls
  1902  rm -rf myWebsite
  1903  rm -rf myWebsiteTwo
- 1904  ls
- 1905  mkdir myWebsite
- 1906  cd myWebsite
- 1907  ls
- 1908  ..
- 1909  ls
  1910  cd AJAX
- 1911  ..
  1912  mkdir playGround
  1913  cd mplayGround
- 1914  ls
  1915  mkdir funTimes
  1916  cd funTimes
- 1917  git init
  1918  mkdir firebase
  1919  cd firebase
- 1920  git init
  1921  git remote add origin https://github.com/jhernandez89/firebase.git
- 1922  git push -u origin master
- 1923  git add -A
- 1924  git status
- 1925  touch index.html
- 1926  atom .
- 1927  git add -A
  1928  git commit -m "my test"
- 1929  git push -u origin master
- 1930  npm install -g firebase-tools
  1931  firebase login
- 1932  firebase init
- 1933  git init
- 1934  firebase init
- 1935  ls
- 1936  cd public
- 1937  ls
- 1938  ..
- 1939  la
- 1940  firebase deploy
- 1941  cd public
- 1942  firebase deploy
- 1943  ..
- 1944  ls
  1945  mv index.html public/
- 1946  atom .
- 1947  firebase deploy
- 1948  ..
- 1949  ls
- 1950  cd ..
- 1951  ls
- 1952  cd masterTrack
- 1953  ls
- 1954  cd notFinished
- 1955  ls
- 1956  cd codeToBeCompleted
- 1957  ls
  1958  atom howJavascriptWorks.md
- 1959  LS
- 1960  ls
- 1961  ..
- 1962  cd codeToBeCompleted
- 1963  cd describeJavascript
  1964  mkdir describeJavascript
  1965  cd describeJavascript
- 1966  ls
  1967  git clone https://github.com/gSchool/js-scope-and-iife-assessment.git
  1968  git clone https://github.com/gSchool/js-higher-order-functions-assessment.git
  1969  git clone https://github.com/gSchool/js-native-array-methods.git
  1970  git clone https://github.com/gSchool/exercise-js-scope-hoisting-closure-higherorder.git
- 1971  ls
  1972  cd js-scope-and-iife-assessment
- 1973  atom .
- 1974  ..
- 1975  ls
- 1976  cd js-native-array-methods
- 1977  ..
  1978  cd js-higher-order-functions-assessment
- 1979  ls
- 1980  atom .
- 1981  npm install
  1982  npm -g install
- 1983  npm test
- 1984  ls
- 1985  ..
- 1986  ls
- 1987  cd js-native-array-methods
- 1988  atom .
- 1989  ..
- 1990  ls
- 1991  cd practice
  1992  cd js-native-array-methods
- 1993  atom .
- 1994  npm test
- 1995  ls
- 1996  npm test
- 1997  ls
- 1998  ..
- 1999  cd practice
- 2000  ls
- 2001  cd cards
- 2002  ls
- 2003  ..
- 2004  ls
- 2005  ..
- 2006  ls
  2007  mkdir date
- 2008  cd date
  2009  mkdir weekThree
- 2010  ls
- 2011  ..
- 2012  ls
- 2013  cd masterTrack
- 2014  cd codeToBeCompleted
- 2015  ls
- 2016  cd notFinished
- 2017  ls
- 2018  cd codeToBeCompleted
- 2019  ls
  2020  cd big-o-assessment
- 2021  atom .
- 2022  ..
- 2023  ls
- 2024  ..
- 2025  ls
- 2026  ..
- 2027  ls
- 2028  ..
- 2029  ls
- 2030  cd practice
- 2031  ls
- 2032  cd lodash
- 2033  ls
- 2034  atom .
- 2035  ..
- 2036  ls
- 2037  cd mocha-chai-assessment
- 2038  ls
- 2039  atom .
- 2040  npm test
- 2041  npm install
- 2042  npm test
- 2043  ls
- 2044  ..
- 2045  ls
  2046  mkdir mochaAsses
  2047  rm mochAsses
  2048  rm mochaAsses
  2049  rm -rf mochaAsses
- 2050  clear
  2051  mkdir mochaTest
  2052  cd mocha test
  2053  cd mochaTest
  2054  touch codingPart
- 2055  mkdir test
- 2056  cd test
  2057  touch codingPartTest.js
- 2058  ..
- 2059  ls
- 2060  ..
  2061  git clone https://github.com/gSchool/semantic-html-exercise.git
  2062  cd semantic-html-exercise
- 2063  ls
- 2064  atom.
- 2065  atom .
- 2066  ..
- 2067  ls
- 2068  ..
- 2069  ls
- 2070  cd date
- 2071  ls
- 2072  cd weekThree
- 2073  ls
  2074  git clone https://github.com/gSchool/simple-site-project.git
- 2075  ls
- 2076  cd simple-site-project
- 2077  atom .
- 2078  ls
  2079  open readme.md
- 2080  ls
  2081  mkdir codwars
- 2082  cd codwars
- 2083  ls
- 2084  touch index.html
- 2085  ls
- 2086  touch index.js
  2087  atom index.js
- 2088  ls
- 2089  ..
- 2090  ls
- 2091  git clone https://github.com/jhernandez89/warmups.git
- 2092  ls
  2093  git warmups
- 2094  cd warmups
- 2095  ls
  2096  cd w08/w8-t-truncate
- 2097  ls
- 2098  npm install
- 2099  npm test
- 2100  atom .
- 2101  mocha
- 2102  ls
- 2103  ..
- 2104  ls
- 2105  ..
- 2106  ls
- 2107  ..
- 2108  ...
- 2109  ls
- 2110  cd practice
- 2111  ls
  2112  cd codwars
- 2113  ls
- 2114  cd
- 2115  ..
- 2116  ls
  2117  cd jeffhernandez/Documents
- 2118  ls
- 2119  ..
- 2120  ls
- 2121  cd galvanize
- 2122  ls
- 2123  cd date
- 2124  ls
- 2125  cd weekThree
- 2126  ls
- 2127  cd warmups
- 2128  ls
- 2129  cd w08
- 2130  ls
- 2131  cd w8-t-truncate
- 2132  ls
- 2133  npm test
- 2134  ..
- 2135  ls
- 2136  ..
- 2137  ls
- 2138  ..
- 2139  ls
- 2140  ..
- 2141  ls
- 2142  cd practice
- 2143  ls
- 2144  cd
- 2145  ls
- 2146  ..
- 2147  ls
- 2148  ..
- 2149  cd users
- 2150  ls
- 2151  cd jeffhernandez
- 2152  ls
- 2153  cd galvanize
- 2154  ls
- 2155  cd practice
- 2156  cd warmups
- 2157  ls
  2158  cd warmup
- 2159  ..
- 2160  ls
- 2161  cd date
- 2162  ls
- 2163  cd weekThree
- 2164  ls
- 2165  cd warmups
- 2166  ls
- 2167  cd w08
- 2168  ls
- 2169  cd w8-t-truncate
- 2170  ls
- 2171  cd test
- 2172  ..
- 2173  npm test
- 2174  ..
- 2175  ls
- 2176  ..
  2177  git clone https://github.com/jhernandez89/warmups.git
  2178  git clone https://github.com/jhernandez89/css-assessment.git
- 2179  atom .
- 2180  ls
- 2181  ..
- 2182  ls weekThree
  2183  mkdir play
- 2184  cd play
- 2185  touch index.js
- 2186  touch main.css
- 2187  atom .
  2188  open index.js
- 2189  rm index.js
- 2190  ls
- 2191  touch index.html
- 2192  open index.html
- 2193  ..
- 2194  ls
- 2195  cd weekThree
- 2196  ls
  2197  git clone https://github.com/jhernandez89/http-assessment.git
- 2198  atom .
- 2199  ls
  2200  cd http-assessment
- 2201  atom .
- 2202  ls
  2203  ping google.com
- 2204  ls
- 2205  ..
- 2206  ls
  2207  cd simple-site-project
  2208  atom .
  2209  ls
@@ -9997,3 +8952,1048 @@
 10489  heroku git:remote add -a spacehubapi
 10490  heroku git:remote -a spacehubapi
 10491  git push heroku master
+10492  history > history.txt
+10493  heroku run knex migrate:latest
+10494  heroku run knex seed:run
+10495  knex migrate:rollback
+10496  knex seed:run
+10497  knex migrate:rollback
+10498  knex migrate:latest
+10499  knex seed:run
+10500  git add -A
+10501  git commit -a -m "fixed a period"
+10502  git push heroku master
+10503  git add -A
+10504  git commit -a -m "fixed a period"
+10505  git commit -m "fixed a period"
+10506  git push heroku master
+10507  git push origin knex
+10508  git checkout master
+10509  git pull origin master
+10510  git push heroku master
+10511  knex seed:run
+10512  knex migrate:rollback
+10513  knex migrate:latest
+10514  knex seed:run
+10515  heroku run knex seed:run
+10516  heroku run knex migrate:rollback
+10517  heroku run knex migrate:latest
+10518  heroku run knex seed:run
+10519  heroku run knex migrate:rollback
+10520  heroku run knex migrate:latest
+10521  heroku run knex seed:run
+10522  git add -A
+10523  git commit -m "improved routes"
+10524  git push heroku master
+10525  ls
+10526  cd seeds
+10527  ls
+10528  ..
+10529  ls
+10530  cd backspace
+10531  ls
+10532  cd routes
+10533  touch 06_shindig_request.js
+10534  git add -A
+10535  git commit -m "shindig_request route started"
+10536  git checkout knex
+10537  git merge master
+10538  git add -A
+10539  git commit -m "shindig_request route started"
+10540  git push origin kne
+10541  git push origin knex
+10542  git push heroku master
+10543  git checkout master
+10544  git pull origin master
+10545  git checkout knex
+10546  git merge master
+10547  git push heroku master
+10548  git add -A
+10549  git commit -m "shindig_request route started"
+10550  git push heroku master
+10551  knex migrate:create feature_room
+10552  ..
+10553  knex migrate:create feature_room
+10554  knex migrate:make feature_room
+10555  knex seed:make feature_room
+10556  knex migrate:rollback
+10557  heroku run knex migrate:rollback
+10558  knex migrate:latest
+10559  knex seed:run
+10560  knex migrate:rollback
+10561  knex migrate:latest
+10562  knex seed:run
+10563  heroku run knex migrate:rollback
+10564  heroku run knex migrate:latest
+10565  heroku run knex migrate:rollback
+10566  ls
+10567  cd routes
+10568  ls
+10569  touch feature_room.js
+10570  git add -A
+10571  git commit -m "feature_room added to routes/seeds/migrations"
+10572  git push origin knex
+10573  git checkout master
+10574  git pull origin master
+10575  git checkout knex
+10576  git merge master
+10577  git push heroku master
+10578  heroku run knex migrate:rollback
+10579  heroku run knex migrate:latest
+10580  heroku run knex seed:run
+10581  ls
+10582  cd galvanize/date/weekSeventeen
+10583  ls
+10584  git clone https://github.com/SpaceHubFamily/SpaceHub-front-end.git frontSpace
+10585  cd frontspace
+10586  git pull origin master
+10587  git checkout -b jeffsBranch
+10588  atom .
+10589  git pull origin master
+10590  git checkout master
+10591  git pull origin master
+10592  git checkout jeffsStuff
+10593  git checkout jeffsbranch
+10594  git merge master
+10595  ls
+10596  cd galvanize/date/weekSeventeen
+10597  ls
+10598  cd frontspace
+10599  ls
+10600  atom .
+10601  npm i
+10602  ls
+10603  npm start
+10604  react -v
+10605  npm react -v
+10606  npm i
+10607  npm start
+10608  npm install webpack
+10609  npm install webpack -g
+10610  npm start
+10611  ls
+10612  cd galvanize/date/weekSeventeen
+10613  ls
+10614  cd frontSpace
+10615  ls
+10616  npm i -S react-router-config
+10617  npm i -S react-dom
+10618  npm i -S prop-types
+10619  npm i
+10620  ls
+10621  ..
+10622  ls
+10623  git clone https://github.com/alanbsmith/react-node-example.git test
+10624  cd test
+10625  npm i
+10626  pls
+10627  ls
+10628  npm start
+10629  ls
+10630  cd galvanize/date/weekSeventeen
+10631  ls
+10632  cd test
+10633  atom .
+10634  ls
+10635  ..
+10636  ls
+10637  rm -rf frontSpace
+10638  git clone https://github.com/SpaceHubFamily/SpaceHub-front-end.git frontSpace
+10639  cd frontSpace
+10640  git pull origin master
+10641  atom .
+10642  ls
+10643  ..
+10644  ls
+10645  cd test
+10646  atom .
+10647  npm start
+10648  npm i
+10649  ls
+10650  npm install
+10651  ..
+10652  ls
+10653  cd frontSpace
+10654  npm start
+10655  npm i
+10656  ls
+10657  npm start
+10658  npm install webpack -g
+10659  npm start
+10660  ls
+10661  cd galvanize/date/weekSeventeen
+10662  ls
+10663  cd frontSpace
+10664  git pull origin master
+10665  git checkout jeffsbranch
+10666  git checkout -b jeffsBranch
+10667  git merge master
+10668  atom .
+10669  ls
+10670  npm start
+10671  npm i
+10672  yarn add firebase_functions
+10673  yarn add firebase-functions
+10674  npm install firebase-admin
+10675  heroku init
+10676  heroku create
+10677  git remote -v
+10678  heroku git:remote -a morning-hamlet-39553
+10679  git push heroku master
+10680  ls
+10681  git add -A
+10682  git commit -m "trying shit"
+10683  git push heroku master
+10684  git push origin --delete jeffsBranch
+10685  git checkout master
+10686  git push origin --delete jeffsBranch
+10687  git branch -D jeffsBranch
+10688  git checkout -b jeffsBranch
+10689  git merge master
+10690  ls
+10691  git checkout master
+10692  git pull origin master
+10693  git checkout jeffsbranch
+10694  git merge master
+10695  ls
+10696  cd public
+10697  cd components
+10698  touch signup.js
+10699  git add -A
+10700  git commit -m "trying shit"
+10701  git checkout master
+10702  git pull origin master
+10703  git checkout jeffsbranch
+10704  git merge master
+10705  cd galvanize/date/weekSeventeen
+10706  ls
+10707  cd frontSpace
+10708  ls
+10709  git branch -D jeffsBranch
+10710  ls
+10711  cd galvanize/date/weekSeventeen
+10712  ls
+10713  cd frontSpace
+10714  npm build
+10715  npm run build
+10716  ls
+10717  atom .
+10718  cd galvanize/date/weekSeventeen
+10719  ls
+10720  cd frontSpace
+10721  ls
+10722  npm start
+10723  ls
+10724  npm install -S react-redux
+10725  ls
+10726  cd public
+10727  ls
+10728  cd components
+10729  ls
+10730  touch Todo.js
+10731  touch TodoList.js
+10732  ..
+10733  ls
+10734  ..
+10735  npm install --save react-redux\nnpm install --save-dev redux-devtools
+10736  npm i redux
+10737  npm install firebase-admin
+10738  npm i -S redux
+10739  npm i -S firebase-admin@~4.1.2
+10740  npm i -S redux
+10741  npm install --save react-redux\n
+10742  npm install --save-dev redux-devtools
+10743  ls
+10744  npm i
+10745  ls
+10746  cd public
+10747  ls
+10748  cd components
+10749  ls
+10750  touch Todo.js
+10751  ls
+10752  ..
+10753  .
+10754  ..
+10755  ls
+10756  rm -rf test
+10757  ls
+10758  git clone https://github.com/reactjs/redux.git test
+10759  rm -rf test
+10760  ls
+10761  git clone https://github.com/jhernandez89/redux.git test
+10762  cd test
+10763  atom .
+10764  npm i
+10765  npm start
+10766  ls
+10767  cd examples
+10768  ls
+10769  cd todos
+10770  ls
+10771  cd public
+10772  ls
+10773  ..
+10774  cd src
+10775  ls
+10776  ..
+10777  ls
+10778  npm i
+10779  npm start
+10780  ls
+10781  ..
+10782  ls
+10783  cd real-world
+10784  ls
+10785  npm i
+10786  npm start
+10787  ..
+10788  ls
+10789  cd universal
+10790  npm i
+10791  npm start
+10792  ls
+10793  ..
+10794  ls
+10795  cd todos-flow
+10796  npm i
+10797  npm start
+10798  ..
+10799  ls
+10800  cd todomvc
+10801  ls
+10802  npm i
+10803  npm start
+10804  ls
+10805  atom .
+10806  npm start
+10807  ls
+10808  cd galvanize/date/weekSeventeen
+10809  ls
+10810  cd test
+10811  ls
+10812  cd examples
+10813  ls
+10814  cd todomvc
+10815  ls
+10816  ..
+10817  ls
+10818  cd frontSpace
+10819  ls
+10820  cd public
+10821  ls
+10822  ..
+10823  npm i -S "react-test-renderer
+10824  npm i -S react-test-renderer
+10825  npm start
+10826  npm run build
+10827  ls
+10828  git checkout master
+10829  ls
+10830  git branch -D jeffsBranch
+10831  git add -A
+10832  git commit -m "trying shit"
+10833  git checkou master
+10834  git branch -D jeffsBranch
+10835  git checkout -b jeffsBranch
+10836  ls
+10837  cd public
+10838  ls
+10839  cd components
+10840  ls
+10841  ..
+10842  ls
+10843  ..
+10844  ls
+10845  rm -rf frontSpace
+10846  ls
+10847  git clone https://github.com/SpaceHubFamily/SpaceHub-front-end.git frontSpace
+10848  ls
+10849  cd frontSpce
+10850  cd frontSpace
+10851  ls
+10852  atom .
+10853  npm run build
+10854  npm i
+10855  yarn add redux react-redux redux-thunk redux-observable redux-saga rxjs redux-promise-middleware
+10856  git checkout jeffsBranch
+10857  git checkout -b jeffsBranch
+10858  ls
+10859  yarn add redux react-redux redux-thunk redux-observable redux-saga rxjs redux-promise-middleware
+10860  ls
+10861  cd public
+10862  ls
+10863  mkdir reducers
+10864  cd reducers
+10865  ls
+10866  ..
+10867  touch reducers/index.js
+10868  ls
+10869  cd reducers
+10870  ls
+10871  ..
+10872  touch reducers/dataReducer.js
+10873  ..
+10874  npm i react-redux -S
+10875  ls
+10876  cd public
+10877  ls
+10878  git checkout master
+10879  l
+10880  ls
+10881  ..
+10882  ls
+10883  cd public
+10884  ls
+10885  git checkout jeffsBranch
+10886  ls
+10887  rm -rf reducers
+10888  ls
+10889  cat index.js
+10890  mkdir reducers actions
+10891  ls
+10892  touch store.js
+10893  ..
+10894  ls
+10895  cd public
+10896  ls
+10897  cd reducers
+10898  touch index.js
+10899  touch cart.js
+10900  ..
+10901  ls
+10902  touch actions/add_to_cart.js
+10903  ls
+10904  touch components/SignUp.js
+10905  cd components
+10906  ls
+10907  rm SignUp.js
+10908  touch shelf.js
+10909  ls
+10910  touch cart.js
+10911  ..
+10912  ls
+10913  npm start
+10914  ls
+10915  ..
+10916  ls
+10917  cd test
+10918  ls
+10919  cd examples
+10920  ls
+10921  cd todomvc
+10922  atom .
+10923  npm start
+10924  ls
+10925  ..
+10926  ls
+10927  ..
+10928  ls
+10929  cd frontSpace
+10930  ls
+10931  git checkout master
+10932  ls
+10933  cd public
+10934  ls
+10935  git checkout jeffsBranch
+10936  ls
+10937  git add -A
+10938  git commit -m "trying more shit"
+10939  ls
+10940  git checkout -b testBranch
+10941  ls
+10942  git checkout master
+10943  git pull origin master
+10944  ls
+10945  git checkout -b testing
+10946  ls
+10947  ..
+10948  ls
+10949  npm start
+10950  ls
+10951  cd public
+10952  ls
+10953  ..
+10954  ls
+10955  atom .
+10956  ls
+10957  ..
+10958  ls
+10959  cd test
+10960  ls
+10961  cd examples
+10962  ls
+10963  cd todomvc
+10964  ls
+10965  atom .
+10966  ls
+10967  cd galvanize/date/weekSeventeen
+10968  ls
+10969  cd frontSpace
+10970  ls
+10971  npm i -S prop-types
+10972  ls
+10973  cd publi
+10974  ls
+10975  npm start
+10976  ls
+10977  ls
+10978  npm start
+10979  ls
+10980  git checkout -b jeffsBranch
+10981  ..
+10982  ls
+10983  ..
+10984  ls
+10985  git clone https://github.com/jhernandez89/react-redux.git pls
+10986  cd pls
+10987  ls
+10988  atom .
+10989  cd pls
+10990  ls
+10991  npm i
+10992  ls
+10993  npm start
+10994  npm install --save react-redux
+10995  ls
+10996  npm ls react
+10997  npm start
+10998  npm
+10999  npm run build
+11000  npm start
+11001  ..
+11002  rm -rf pls
+11003  git clone https://github.com/jhernandez89/react-webpack2-skeleton.git
+11004  ls
+11005  rm -rf react-webpack2-skeleton
+11006  git clone https://github.com/jhernandez89/react-webpack2-skeleton.git pls
+11007  cd pls
+11008  ls
+11009  npm i
+11010  ..
+11011  ls
+11012  ..
+11013  cd weekSeventeen
+11014  ls
+11015  cd backSpace
+11016  ls
+11017  atom .
+11018  nodemon
+11019  node
+11020  nodemon
+11021  ls
+11022  cd galvanize/date/weekSeventeen
+11023  ls
+11024  cd backSpace
+11025  ls
+11026  git checkout master
+11027  nodemon
+11028  cd galvanize/date/weekSeventeen
+11029  ls
+11030  cd backspace
+11031  ls
+11032  git add -A
+11033  git commit -m "room route joined with user"
+11034  git push heroku master
+11035  git add -A
+11036  git commit -m "room route joined with user"
+11037  git push heroku master
+11038  knex migrate:rollback
+11039  knex migrate:latest
+11040  knex seed:run
+11041  heroku run knex migrate:rollback
+11042  heroku run knex migrate:latest
+11043  heroku run knex seed:run
+11044  ls
+11045  git add -A
+11046  git commit -m "room route joined with user"
+11047  git push origin master
+11048  git add -A
+11049  git commit -m "shindig done be routed"
+11050  git push origin master
+11051  git push heroku master
+11052  heroku run knex migrate:rollback
+11053  heroku run knex migrate:latest
+11054  heroku run knex seed:run
+11055  ..
+11056  ls
+11057  cd test
+11058  ls
+11059  ..
+11060  ls
+11061  cd frontSpace
+11062  ls
+11063  ..
+11064  ls
+11065  cd test
+11066  ls
+11067  cd
+11068  ls
+11069  cd galvanize/date/weekSeventeen
+11070  ls
+11071  cd frontSpace
+11072  atom .
+11073  ..
+11074  ls
+11075  cd test
+11076  ls
+11077  cd examples
+11078  ls
+11079  cd todomvc
+11080  ..
+11081  ls
+11082  cd universal
+11083  ls
+11084  npm i
+11085  ls
+11086  npm i
+11087  ..
+11088  ls
+11089  cd asynch
+11090  cd async
+11091  ls
+11092  cd public
+11093  ls
+11094  ..
+11095  ls
+11096  cd todomv
+11097  cd todomvc
+11098  ls
+11099  atom .
+11100  npm i
+11101  npm start
+11102  ls
+11103  ..
+11104  ls
+11105  cd test
+11106  ls
+11107  cd examples
+11108  ls
+11109  cd todomvc
+11110  ls
+11111  npm i
+11112  npm install
+11113  npm i -S webpack@^1.9.11
+11114  npm i -S webpack@1.9.11
+11115  npm i -S webpack@2
+11116  npm i -S webpack@1.9.11
+11117  npm i -S webpack@2.2.0
+11118  ..
+11119  ls
+11120  ..
+11121  ls
+11122  ..
+11123  ls
+11124  cd frontSpace
+11125  ls
+11126  git checkout master
+11127  ls
+11128  ..
+11129  rm -rf frontSpace
+11130  git clone https://github.com/SpaceHubFamily/SpaceHub-front-end.git frontSpace
+11131  ls
+11132  cd frontSpace
+11133  ls
+11134  npm i
+11135  ls
+11136  atom .
+11137  ls
+11138  git pull origin master
+11139  git checkout -be jeffsBranch
+11140  git checkout -b jeffsBranch
+11141  git merge master
+11142  ls
+11143  git checkout master
+11144  git pull origin master
+11145  git checkout jeffsBranch
+11146  git merge master
+11147  ls
+11148  rm -rf node_modules
+11149  ls
+11150  yarn
+11151  ls
+11152  npm build
+11153  npm run build
+11154  ls
+11155  ..
+11156  ls
+11157  ..
+11158  ls
+11159  cd portfolio
+11160  ls
+11161  atom .
+11162  npm start
+11163  ..
+11164  ls
+11165  ..
+11166  ls
+11167  cd por
+11168  cd portfolio
+11169  ls
+11170  git add -A
+11171  git commit -m "new dialog for the dag"
+11172  ls
+11173  npm start
+11174  ls
+11175  npm i
+11176  ls
+11177  touch .gitignore
+11178  git rm -r --cached node_modules
+11179  git add -A
+11180  git commit -m "new dialog for the dag"
+11181  git push origin master
+11182  firebase deploy
+11183  ls
+11184  cd app
+11185  ls
+11186  git add -A
+11187  git commit -m "new dialog for the dag"
+11188  git push origin master
+11189  npm start
+11190  firebase deploy
+11191  git add -A
+11192  git commit -m "new dialog for the dag"
+11193  firebase deploy
+11194  git add -A
+11195  git commit -m "new dialog for the dag"
+11196  git push origin master
+11197  firebase deploy
+11198  git add -A
+11199  git commit -m "new dialog for the dag"
+11200  git push origin master
+11201  firebase deploy
+11202  ls
+11203  git checkout -b tryingThings
+11204  rm firebase.json
+11205  ls
+11206  firebase init
+11207  firebase deploy
+11208  ..
+11209  ls
+11210  cd weekSevent
+11211  cd weekSeventeen
+11212  ls
+11213  cd frontSpace
+11214  atom .
+11215  git checkout master
+11216  git pull origin master
+11217  git checkout jeffsBranch
+11218  git merge master
+11219  nodemon
+11220  npm i
+11221  nodemon
+11222  npm i -g gulp
+11223  ls
+11224  cd public
+11225  ..
+11226  gulp
+11227  cd dist
+11228  ls
+11229  nodemon
+11230  ..
+11231  ls
+11232  cd public
+11233  ls
+11234  gulp
+11235  ..
+11236  ls
+11237  ..
+11238  ls
+11239  cd frontSpace
+11240  ls
+11241  git checkout master
+11242  gulp
+11243  npm i -S gulp
+11244  gulp
+11245  ls
+11246  atom .
+11247  npm run start
+11248  ls
+11249  cd galvanize/date/weekSeventeen
+11250  cd frontSpace/
+11251  git checkout -b test
+11252  code .
+11253  npm install eslint@3.x babel-eslint@6 --save-dev
+11254  code .
+11255  npm install babel-preset-es2015 --save-dev
+11256  npm run start
+11257  npm install babel-preset-stage-0 --save-dev\n
+11258  npm run start
+11259  npm install email-validator -S
+11260  npm install password-validator -S
+11261  ..
+11262  ls
+11263  cd backSpace
+11264  code .
+11265  knex migrate:create password
+11266  ls
+11267  knex migrate:make password
+11268  knex seed:make password
+11269  npm i -S bcrypt
+11270  npm install express-session -S
+11271  cat .es
+11272  cat .eslintrc
+11273  ls
+11274  cd galvanize/date/weekSeventeen
+11275  ls
+11276  cd backSpace
+11277  ls
+11278  knex migrate:rollback
+11279  knex migrate:latest
+11280  knex seed:run
+11281  knex migrate:rollback
+11282  knex migrate:latest
+11283  knex seed:run
+11284  ..
+11285  ls
+11286  cd weekSeventeen
+11287  ls
+11288  cd backspace
+11289  npm start
+11290  nodemon
+11291  knex migrate:rollback
+11292  dropdb spaceback
+11293  dropdb spacehub
+11294  knex migrate:rollback
+11295  knex migrate:latest
+11296  knex migrate:rollback
+11297  knex migrate:latest
+11298  knex migrate:rollback
+11299  knex migrate:latest
+11300  nodemon
+11301  npm install cors
+11302  npm install cors -S
+11303  git add -A
+11304  git commmit -m "login stuff"
+11305  git commit -m "login stuff"
+11306  git push origin master
+11307  git push heroku master
+11308  ..
+11309  ls
+11310  cd frontSpace
+11311  ls
+11312  git add -A
+11313  git commit -m "login stuff"
+11314  git push origin test
+11315  git checkout master
+11316  git pull origin master
+11317  git checkout test
+11318  git merge master
+11319  yarn
+11320  git add -A
+11321  git commit -m "login stuff"
+11322  git push origin test
+11323  ..
+11324  ls
+11325  cd backSpace
+11326  heroku run knex migrate:rollback
+11327  heroku run dropdb
+11328  heroku run migrate:latest
+11329  heroku run knex migrate:latest
+11330  heroku run knex migrate:rollback
+11331  heroku run knex dropdb
+11332  heroku run knex db:drop
+11333  heroku run knex migrate:rollback
+11334  heroku pg:reset spacehub
+11335  heroku pg:reset DATABASE_URL
+11336  git commit -m "migrations"
+11337  git add -A
+11338  git commit -m "migrations"
+11339  git push origin test
+11340  git push heroku master
+11341  heroku run knex migrate:latest
+11342  heroku run knex seed:run
+11343  git add -A
+11344  git commit -m "migrations"
+11345  git push heroku master
+11346  knex migrate:latest
+11347  heroku run knex migrate:latest
+11348  heroku run knex seed:run
+11349  heroku run knex migrate:rollback
+11350  heroku run knex migrate:latest
+11351  heroku run knex seed:run
+11352  knex seed:run
+11353  knex migrate:rollback
+11354  knex migrate:latest
+11355  knex seed:run
+11356  ls
+11357  git add -A
+11358  git commit -m "user/shindig route completed"
+11359  git push heroku master
+11360  git push origin master
+11361  heroku run knex migrate:rollback
+11362  heroku run knex seed:run
+11363  heroku run knex migrate:rollback
+11364  heroku run knex migrate:latest
+11365  heroku run knex seed:run
+11366  git add -A
+11367  git commit -m "shindig has availability"
+11368  git push origin master
+11369  git push heroku master
+11370  heroku run knex migrate:rollback
+11371  heroku run knex migrate:latest
+11372  heroku run knex seed:run
+11373  knex migrate:rollback
+11374  knex migrate:latest
+11375  knex seed:run
+11376  ..
+11377  ls
+11378  cd frontSpace
+11379  ls
+11380  git checkout master
+11381  atom .
+11382  ls
+11383  git pull origin master
+11384  git checkout -b roomform
+11385  git add -A
+11386  git commit -m "room and user routes fixed"
+11387  git push heroku master
+11388  ..
+11389  ls
+11390  cd backSpace
+11391  ls
+11392  cd routes
+11393  ls
+11394  touch all.js
+11395  ..
+11396  git add -A
+11397  git commit -m "additional routes"
+11398  git push heroku master
+11399  ..
+11400  ls
+11401  cd frontSpace
+11402  ls
+11403  cd public
+11404  ls
+11405  cd public
+11406  ls
+11407  cd public
+11408  ls
+11409  cd components
+11410  ls
+11411  cd company
+11412  ls
+11413  touch room.js
+11414  cd galvanize/date/weekSeventeen
+11415  cd backSpace
+11416  ls
+11417  git add -A
+11418  git commit -m "shindig id added"
+11419  git push heroku master
+11420  git push origin master
+11421  ls
+11422  heroku run knex migrate:rollback
+11423  knex migrate:rollback
+11424  knex migrate:latest
+11425  knex seed:run
+11426  knex migrate:rollback
+11427  knex migrate:latest
+11428  knex seed:run
+11429  knex migrate:rollback
+11430  knex migrate:latest
+11431  knex seed:run
+11432  knex migrate:rollback
+11433  knex migrate:latest
+11434  knex seed:run
+11435  knex migrate:rollback
+11436  knex migrate:latest
+11437  knex seed:run
+11438  heroku run knex migrate:latest
+11439  heroku run knex seed:run
+11440  knex migrate:rollback
+11441  knex migrate:latest
+11442  knex seed:run
+11443  git add -A
+11444  git commit -m "request route added"
+11445  git push heroku master
+11446  ..
+11447  ls
+11448  ..
+11449  ls
+11450  cd weekSeventeen
+11451  ls
+11452  cd frontSpace
+11453  ls
+11454  git checkout master
+11455  git pull origin master
+11456  git checkout roomform
+11457  git merge master
+11458  ls
+11459  git checkout master
+11460  ls
+11461  git branch -D roomform
+11462  atom .
+11463  ..
+11464  ls
+11465  rm -rf frontSpace
+11466  git clone https://github.com/SpaceHubFamily/SpaceHub-front-end.git front
+11467  cd front
+11468  ls
+11469* cd ..
+11470* ls
+11471* cd front
+11472* npm start
+11473* npm i
+11474* npm start
+11475  ls
+11476  git pull origin master
+11477  atom .
+11478* npm start
+11479  ls
+11480  npm install googleapis --save
+11481  npm install google-auth-library --save
+11482  git checkout -b gmailapi
+11483  npm install google-auth-library --save
+11484  npm install googleapis --save
+11485  ls
+11486  cd public
+11487  ls
+11488  cd components
+11489  ls
+11490  cd user
+11491  ls
+11492  touch quickstart.js
+11493  ls
+11494  node quickstart.js
+11495  ls
+11496  node quickstart.js
+11497  ls
+11498  ..
+11499  ls
+11500  ..
+11501  ls
+11502  .
+11503  ..
+11504  ls
+11505  npm i -S mailgun-js
+11506  npm i -S jade
+11507  npm i -S pug
+11508  npm i -S nodemailer
+11509  ..
+11510  ls
+11511  cd backSpace
+11512  atom .
+11513  git add -A
+11514  git commit -m "logins"
+11515  git push heroku master
+11516  heroku run knex migrate:rollback
+11517  heroku run knex migrate:latest
+11518  heroku run knex seed:run
+11519  git add -A
+11520  git commit -m "logins"
+11521  git push heroku master
+11522  git push origin master
+11523  git add -A
+11524  git commit -m "logins"
+11525  git push origin master
+11526  git push heroku master
+11527  ls
+11528  git add -A
+11529  git commit
+11530  git add -A
+11531  git commit
+11532  git add -A
+11533  git commit -m "logins"
+11534  git pull origin master
+11535  git add -A
+11536  git commit -m "logins"

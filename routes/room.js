@@ -18,7 +18,7 @@ router.get('/user/:id', function(req, res) {
     'users.first_name', 'users.last_name', 'users.img_url as user_img_url', 'users.phone_number',
     'users.company_name', 'users.email', 'users.description as company_description',
     'users.venue_owner', 'users.event_planner', 'venue.name as venue_name')
-  .where('users.id', req.params.userId)
+  .where('users.id', req.params.id)
   .then(function (result) {
     res.json(result);
   })
