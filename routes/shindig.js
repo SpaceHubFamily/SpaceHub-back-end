@@ -35,7 +35,7 @@ router.get('/user/:id', function(req, res) {
   'venue.name as venue_name', 'venue.email as venue_email',
   'venue.email as venue_email', 'venue.phone as venue_phone',
   'venue.description as venue_description', 'venue.img_url as venue_img_url',
-  'shindig.id as id')
+  'shindig.')
   .then(function (result) {
     res.json(result);
   })
@@ -46,8 +46,10 @@ router.post('/', function(req, res){
 
   knex('shindig').insert({
     date: req.body.date,
+    available: req.body.available,
     start_time: req.body.start_time,
-    user_id: knex('user').where('name', req.body.user).select('id'),
+    end_time: req.body.end_time,
+    user_id: knex('users').where('company_name', req.body.company).select('id'),
     room_id: knex('room').where('name', req.body.room).select('id'),
   }, 'id').then(function(result){
     res.json(result);
