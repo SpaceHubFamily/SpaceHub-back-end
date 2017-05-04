@@ -28,7 +28,7 @@ const app = express();
 //   origin: ['http://localhost:8080'],
 //   credentials: true,
 // }));
-app.use(cors(*));
+app.use(cors('*'));
 
 app.use(session({
   secret: process.env.COOKIE_SECRET || 'keyboard cat',
