@@ -2,8 +2,7 @@ const router = require('express').Router();
 const knex = require('../db/knex');
 
 router.get('/', function(req, res) {
-  if (req.session.userId) {
-  return knex('shindig_request')
+  knex('shindig_request')
   .join('shindig', 'shindig_request.shindig_id', '=', 'shindig.id')
   .join('users', 'users.id', '=', 'shindig_request.user_id')
   .join('room', 'room.id', '=', 'shindig.room_id')
@@ -23,12 +22,10 @@ router.get('/', function(req, res) {
     'venue.city', 'venue.state', 'venue.zip_code', 'venue.name as venue_name',
     'venue.email as venue_email', 'venue.phone as venue_phone',
     'venue.description as venue_description', 'venue.img_url as venue_img_url')
-  .where('shindig.user_id', req.session.userId)
+  .where('shindig.user_id', req.params.id)
   .then(function(result) {
     res.json(result);
   })
-}
-return res.status(401).send('not logged in')
 })
 
 // router.get('/', function(req, res) {
@@ -83,7 +80,7 @@ router.get('/:id', function(req, res) {
       'venue.city', 'venue.state', 'venue.zip_code', 'venue.name as venue_name',
       'venue.email as venue_email', 'venue.phone as venue_phone',
       'venue.description as venue_description', 'venue.img_url as venue_img_url')
-    .where('shindig_request.user_id', req.params.userId)
+    .where('shindig_request.user_id', req.params.id)
     .then(function (result) {
       res.json(result);
     })
