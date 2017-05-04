@@ -24,11 +24,10 @@ const app = express();
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-// app.use(cors({
-//   origin: ['http://localhost:8080'],
-//   credentials: true,
-// }));
-app.use(cors('*'));
+app.use(cors({
+  origin: ['http://localhost:8080'],
+  credentials: true,
+}));
 
 app.use(session({
   secret: process.env.COOKIE_SECRET || 'keyboard cat',
