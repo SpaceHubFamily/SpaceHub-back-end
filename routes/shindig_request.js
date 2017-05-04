@@ -110,7 +110,8 @@ router.get('/user/:id', function(req, res) {
       'venue.address as venue_address', 'venue.address as venue_address',
       'venue.city', 'venue.state', 'venue.zip_code', 'venue.name as venue_name',
       'venue.email as venue_email', 'venue.phone as venue_phone',
-      'venue.description as venue_description', 'venue.img_url as venue_img_url')
+      'venue.description as venue_description', 'venue.img_url as venue_img_url'
+        )
     .where('shindig_request.user_id', req.params.id)
     .then(function (result) {
       res.json(result);

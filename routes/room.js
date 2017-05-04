@@ -9,7 +9,7 @@ router.get('/', function(req, res) {
   })
 });
 
-router.get('/user/:id', function(req, res) {
+router.get('/user/', function(req, res) {
   if(req.session.userId) {
   return knex('room')
   .join('venue', 'venue.id', '=', 'room.venue_id')
@@ -19,7 +19,25 @@ router.get('/user/:id', function(req, res) {
     'users.first_name', 'users.last_name', 'users.img_url as user_img_url', 'users.phone_number',
     'users.company_name', 'users.email', 'users.description as company_description',
     'users.venue_owner', 'users.event_planner', 'venue.name as venue_name')
-  .where('users.id', req.params.userId)
+  .where('users.id', req.session.userId)
+  .then(function (result) {
+    res.json(result);
+  })
+}
+return res.status(401).send('not logged in');
+});
+
+router.get('/user/:id', function(req, res) {
+  if(req.session.userId) {
+  return knex('room')
+  .join('venue', 'venue.id', '=', 'room.venue_id')
+  .join('users', 'users.id', '=', 'venue.user_id')
+  .select('venue.name as venue_name', 'room.name as room_name', 'hour_rate',
+    'day_rate', 'room.img_url as room_img_url', 'room.available as room_available',
+    'users.first_name', 'users.last_name', 'users.img_url as user_img_url', 'users.phone_number',
+    'users.company_name', 'users.email', 'users.description as company_description',
+    'users.venue_owner', 'users.event_planner', 'venue.name as venue_name', 'room.id as room_id')
+  .where('users.id', req.session.userId)
   .then(function (result) {
     res.json(result);
   })
