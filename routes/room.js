@@ -10,8 +10,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/user/:id', function(req, res) {
-  if (req.session.userId) {
-  return knex('room')
+  knex('room')
   .join('venue', 'venue.id', '=', 'room.venue_id')
   .join('users', 'users.id', '=', 'venue.user_id')
   .select('venue.name as venue_name', 'room.name as room_name', 'hour_rate',
@@ -23,8 +22,6 @@ router.get('/user/:id', function(req, res) {
   .then(function (result) {
     res.json(result);
   })
-  }
-  return res.status(401).send('not logged in')
 });
 
 router.get('/:id', function(req, res) {

@@ -10,8 +10,7 @@ router.get('/', function(req, res) {
 });
 let myObject;
 router.get('/:id', function(req, res) {
-  if (req.session.userId) {
-    return knex('shindig_request')
+    knex('shindig_request')
     .join('shindig', 'shindig_request.shindig_id', '=', 'shindig.id')
     .join('users', 'users.id', '=', 'shindig_request.user_id')
     .join('room', 'room.id', '=', 'shindig.room_id')
@@ -35,8 +34,7 @@ router.get('/:id', function(req, res) {
     .then(function (result) {
       res.json(result);
     })
-  }
-  return res.status(401).send('not logged in')
+
 })
 
 router.post('/', function(req, res){

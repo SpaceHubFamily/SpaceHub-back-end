@@ -39,7 +39,7 @@ router.post('/', function(req, res){
     phone: req.body.phone,
     description: req.body.description,
     img_url: req.body.img_url,
-    user_id: knex('user').where('name', req.body.user).select('id'),
+    user_id: req.body.id,
   }, 'id').then(function(result){
     res.json(result);
   });
