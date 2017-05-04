@@ -1,5 +1,6 @@
 exports.up = function (knex, Promise) {
   return knex.schema.createTable('shindig_request', (table) => {
+    table.increments();
     table.integer('shindig_id')
       .references('shindig.id')
       .onDelete('CASCADE');
