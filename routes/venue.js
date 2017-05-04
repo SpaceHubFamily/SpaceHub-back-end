@@ -28,7 +28,7 @@ router.get('/:id', function(req, res) {
 })
 
 router.post('/', function(req, res){
-
+console.log(req.body);
   knex('venue').insert({
     address: req.body.address,
     city: req.body.city,
