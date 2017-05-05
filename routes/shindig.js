@@ -56,9 +56,8 @@ router.post('/', function(req, res){
 
 router.patch('/:id', function(req, res){
 
-knex('room').where('id', req.params.id).update({
-  name: req.body.name,
-  subject_id: knex('subject').where('name', req.body.subject).select('id'),
+knex('shindig').where('id', req.params.id).update({
+  available: req.body.available,
 })
 .then(function(result){
   res.json(result)
