@@ -43,13 +43,13 @@ router.get('/user/:id', function(req, res) {
 
 
 router.post('/', function(req, res){
-
+console.log(req.body);
   knex('shindig').insert({
     date: req.body.date,
     start_time: req.body.start_time,
     end_time: req.body.end_time,
     available: req.body.available,
-    user_id: req.body.start_time,
+    user_id: req.body.user_id,
     room_id: req.body.room_id,
   }, 'id').then(function(result){
     res.json(result);
