@@ -47,7 +47,8 @@ router.post('/', function(req, res){
   knex('shindig').insert({
     date: req.body.date,
     start_time: req.body.start_time,
-    user_id: knex('user').where('name', req.body.user).select('id'),
+    end_time: req.body.end_time,
+    user_id: knex('users').where('email', req.body.email).select('id'),
     room_id: knex('room').where('name', req.body.room).select('id'),
   }, 'id').then(function(result){
     res.json(result);
