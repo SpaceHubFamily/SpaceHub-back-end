@@ -5,14 +5,14 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('shindig').insert([
-        {date: "05/29/2017", available: true, start_time: '3:45', end_time: "8:00", user_id: 3, room_id: 1},
-        {date: "09/15/2017", available: false, start_time: '4:45', end_time: "9:45", user_id: 4, room_id: 2},
-        {date: "06/17/2017", available: false, start_time: '7:30', end_time: "11:00", user_id: 1, room_id: 6},
-        {date: "05/03/2017", available: true, start_time: '8:15', end_time: "11:30", user_id: 6, room_id: 1},
-        {date: "07/04/2017", available: true, start_time: '4:39', end_time: "9:15", user_id: 2, room_id: 2},
-        {date: "12/23/2017", available: true, start_time: '1:00', end_time: "5:45", user_id: 1, room_id: 1},
-        {date: "09/26/2017", available: true, start_time: '7:00', end_time: "10:00", user_id: 3, room_id: 10},
-        {date: "10/07/2017", available: false, start_time: '3:30', end_time: "7:30", user_id: 5, room_id: 5},
+        {date: "2018-05-06T06:00:00.000Z", available: true, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 3, room_id: 1},
+        {date: "2017-04-03T06:00:00.000Z", available: false, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 4, room_id: 2},
+        {date: "2018-03-02T06:00:00.000Z", available: false, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 1, room_id: 6},
+        {date: "2017-08-01T06:00:00.000Z", available: true, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 6, room_id: 1},
+        {date: "2018-09-05T06:00:00.000Z", available: true, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 2, room_id: 2},
+        {date: "2017-10-07T06:00:00.000Z", available: true, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 1, room_id: 1},
+        {date: "2017-12-03T06:00:00.000Z", available: true, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 3, room_id: 10},
+        {date: "2017-11-02T06:00:00.000Z", available: false, start_time: '2017-05-05T15:19:53.778Z"', end_time: "2017-05-05T09:19:55.814Z", user_id: 5, room_id: 5},
       ]);
     });
 };

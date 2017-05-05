@@ -30,7 +30,7 @@ app.use(cors({
 }));
 
 app.use(session({
-  secret: process.env.COOKIE_SECRET || 'keyboard cat',
+  secret: process.env.COOKIE_SECRET || 'correct horse battery staple',
   resave: true,
   saveUninitialized: false,
   cookie: { httpOnly: true },
