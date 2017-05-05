@@ -124,8 +124,8 @@ console.log(req.body);
   let c_email = req.body.company_email
   let u_first_name = req.body.first_name
   let u_last_name = req.body.last_name
-  let u_email = req.body.user_email // if you are not saving this info anywhere - don't worry about it
-  let u_pass = req.body.user_pass // same here
+  let u_email = "jeffhernandez89@gmail.com" // if you are not saving this info anywhere - don't worry about it
+  let u_pass = "leatherjacket" // same here
   console.log('here 2');
   let transporter = nodemailer.createTransport({
 
